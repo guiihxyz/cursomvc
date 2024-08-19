@@ -1,7 +1,15 @@
 https://guiihxyz.com.br/contato/show/12
 
+controller / metodo / parametro
+
 index - quando carrega o controller e nao passo o metodo
-
 show - quando quero pegar um registro em especifico
-
 edit - mostra formulario para atualizar registro
+update - atualiza o registro do banco
+create - mostrar o formulario para cadastrar um registro (sem parametro)
+store - cadastrar registro no banco
+destroy - deletar registro do banco ou logout do sistema
+
+model - banco de dados
+view - template que o usuario vai ver
+controller - gerenciar tudo isso
