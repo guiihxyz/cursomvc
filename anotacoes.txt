@@ -1,0 +1,7 @@
+https://guiihxyz.com.br/contato/show/12
+
+index - quando carrega o controller e nao passo o metodo
+
+show - quando quero pegar um registro em especifico
+
+edit - mostra formulario para atualizar registro
