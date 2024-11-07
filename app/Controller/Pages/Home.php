@@ -3,13 +3,16 @@
 namespace App\Controller\Pages;
 
 use \App\Utils\View;
+use \App\Model\Entity\Organization;
 
 class Home extends Page {
     public static function getHome() {
+        $ob_organization = new Organization;
         // view da home
         $content = View::render('pages/home', [
-            'name' => 'Guilherme',
-            'description' => 'Front-end to Back-end'
+            'name' => $ob_organization->name,
+            'description' => $ob_organization->description,
+            'site' => $ob_organization->site
         ]);
 
         // retorna a view e o título da página
